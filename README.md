@@ -20,3 +20,8 @@ This is a simple Django backend with **WebSocket support** using **Django Channe
 - Django 4.x or 5.x
 - Django Channels
 - Redis (for channel layer)
+
+
+## commands
+
+-daphne -p 8000 chatproject.asgi:application
